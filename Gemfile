@@ -63,3 +63,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data"
+
+gem "spectacle", "= 0.2.2", :source => "https://buildkite:#{ENV["BK_TOKEN"]}@packages.buildkite.com/spectacle/spectacle"

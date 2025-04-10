@@ -25,6 +25,10 @@
 /public/assets
 .byebug_history
 
+# Environment files
+.env
+.env.*
+
 # Ignore generated TailwindCSS file
 app/assets/builds
 

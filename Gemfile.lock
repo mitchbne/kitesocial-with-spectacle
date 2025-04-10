@@ -1,4 +1,9 @@
 GEM
+  remote: https://packages.buildkite.com/spectacle/spectacle/
+  specs:
+    spectacle (0.2.2)
+
+GEM
   remote: https://rubygems.org/
   specs:
     actioncable (8.0.2)
@@ -326,6 +331,7 @@ DEPENDENCIES
   rspec-rails
   rubocop-rails-omakase
   selenium-webdriver
+  spectacle (= 0.2.2)!
   sqlite3 (>= 2.1)
   stimulus-rails
   tailwindcss-rails
