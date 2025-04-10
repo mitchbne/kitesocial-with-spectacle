@@ -44,6 +44,9 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  # Perform spec subselection
+  gem "spectacle", git: 'https://github.com/mitchbne/spectacle', ref: 'cfb482ddaa9e82f525d41caf92f981064ba4362d'
 end
 
 group :development do
