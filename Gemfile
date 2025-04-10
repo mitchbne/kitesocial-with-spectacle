@@ -46,7 +46,6 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   # Perform spec subselection
-  gem "spectacle", git: 'https://github.com/mitchbne/spectacle', ref: 'cfb482ddaa9e82f525d41caf92f981064ba4362d'
 end
 
 group :development do
@@ -63,4 +62,4 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: %i[ windows jruby ]
+gem "tzinfo-data"
