@@ -1,3 +1,4 @@
+# Add a comment to user
 class User < ApplicationRecord
   has_secure_password
 
